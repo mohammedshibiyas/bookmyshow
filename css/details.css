@@ -1,0 +1,203 @@
+body{
+    font-family: Roboto,sans-serif;
+}
+
+.navbar{
+    background-color: rgb(51, 53, 69);
+    height: 70px;
+    display: flex;
+    margin: auto;
+    /* justify-content: space-around; */
+}
+.nav-left{
+    width: 80%;
+    padding-bottom:50px !important;
+    padding-left: 70px;
+}
+.nav-right{
+    width: 20%;
+    padding-right: 60px;
+    padding-bottom:50px !important;
+}
+
+
+.navbar img{
+    width: 13%;
+   
+}
+#nav-search{
+    margin-left: 15px;
+    font-family: Roboto,sans-serif;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 300px 5px 0px;
+}
+.nav-right button{
+    margin-left: 10px;
+    background-color: rgb(248, 68, 100);
+    border: none;
+    color: white;
+    font-family: Roboto,sans-serif;
+    font-size: small;
+    padding: 4px 12px;
+    border-radius: 5px;
+    
+}
+.nav-right select{
+    border: none;
+    font-size: small;
+    font-family: Roboto,sans-serif;
+    background-color: transparent;
+    color: rgb(204, 204, 204);
+}
+.nav-right select:hover{
+    color: white;
+    transition: .2s;
+}
+.nav-right i{
+    color: rgba(255, 255, 255, 0.726);
+    margin-left: 19px;
+}
+
+/* second-nav */
+.second-nav{
+    height: 40px;
+    display: flex;
+    background-color: rgb(34, 37, 57);;
+}
+.secnav-left{
+    display: flex;
+    gap: 15px;
+    padding-left: 73px;
+    width: 70%;
+    padding-top: 5px;
+}
+.secnav-left a{
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-size: 13px;
+    color: rgb(204, 204, 204);
+  
+}
+
+
+.secnav-right{
+    display: flex;
+    gap: 20px;
+    width: 30%;
+    padding-top: 5px;
+}
+.secnav-right a{
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-size: smaller;
+    color: white
+}
+
+.background img{
+    width: 100%;
+    height: auto;
+   
+   
+}
+.background {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+.content{
+    position: absolute;
+    bottom: 5%;
+    top: 8%;
+    display: flex;
+    gap: 30px;
+    left:5%
+
+}
+.content img{
+    width: 92%;
+    border-radius: 8px;
+    height: 440px;
+}
+.content-label{
+    color: white;
+    padding-top: 5%;
+    width: 100%;
+}
+.content-label i{
+    color: rgb(248, 68, 100);
+    height: 40px;
+}
+.content-label span{
+    font-weight: 600;
+    padding-left: 6px;
+    font-size: 24px;
+}
+#votes{
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+#votes i{
+    padding-left: 5px;
+    color: white;
+}
+.content-label h2{
+    font-weight: 600;
+}
+.rate-card{
+    display: flex;
+    background-color: rgb(51, 51, 51);
+    width: 140%;
+    padding: 20px 12px 5px 20px;
+    gap: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.rate-card button{
+width: 30%;
+height: 50px;
+font-weight: 550;
+border: none;
+border-radius: 10px;
+}
+.rate-label{
+    width: 100%;
+}
+.rate-label h5{
+   font-size: 17px;
+   font-weight: 600;
+}
+.btns{
+    padding-top: 5%;
+    width: 130%;
+    gap: 20px;
+    display: flex;
+}
+.btns button{
+width: 90%;
+height: 30px;
+border: none;
+ 
+}
+#max{
+   width: 10%;
+   padding: 0px 0px 0px 0px;
+    width: 90%;
+
+}
+#duration{
+    font-weight: 510;
+    margin-top: 30px;
+    width: 100%;
+    gap: 10px;
+    font-size: 16.5px;
+    
+}
